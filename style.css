@@ -1,0 +1,195 @@
+.nav-bar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    height: 100%;
+    background-color: #fff7f5;
+}
+.nav-container{
+    width: 100vw;
+}
+.nav-left{
+    top: 0px;
+}
+.nav-left i{
+    background-color: #fa4a3d;
+    color: white;
+    border: 3px solid #fa4a3d;
+    scale: 2.0;
+}
+.nav-left h2{
+    color: #f84733;
+}
+.nav-middle>a{
+    text-decoration: none;
+    color: #535355;
+    margin-inline: 10px;
+}
+.sign-in-btn{
+    width: 150px;
+    box-shadow: 0px 0px 10px #ff3c32;
+    border-radius: 40px !important;
+}
+
+.hero-section{
+    background-color: #fff7f5;
+}
+.hero-desc{
+    padding: 100px;
+    width: 40%;
+    box-sizing: border-box;
+}
+.tag-line h6{
+    background-color: #fbcfcc;
+    border-radius: 15px;
+    padding-inline: 10px;
+    overflow: hidden;
+}
+.fa-bowl-food{
+    color: orangered;
+    background-color: white;
+    scale: 2;
+    margin-left: 10px;
+}
+.hero-section button{
+    background-color: #ff5a4d;
+}
+
+.head-section{
+    margin: 100px auto;
+    width: 80%;
+}
+.head-section>div{
+    height: 300px;
+    width: 25%;
+    padding: 5px 10px;
+}
+.head-section img{
+    width: 220px;
+    height: 200px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.social-media-logo>i{
+    margin-right: 10px;
+}
+
+.customers-profile img{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    object-fit:cover;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 10px;
+    border-radius: 100%;    
+}
+
+.main-section{
+    width: 80%;
+    margin: 100px auto;
+}
+.menu-items a{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+.item-img img{
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.fa-star,.fa-star-half-stroke{
+    color: orangered;
+}
+.items-gallary{
+    width: 100%;
+    overflow-y: auto;
+}
+
+.review{
+    width: 80vw;
+    margin: 100px 10vw;
+    height: 400px;
+    box-sizing: border-box;
+}
+.customers-name{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.customers-profile{
+    box-shadow: 0px 0px 5px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    height:20%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+}
+.customers-profile:hover{
+    box-shadow: 0px 0px 30px;
+}
+.customer-review{
+    overflow-y: scroll;
+}
+
+
+span{
+    color: orangered;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 68, 0); 
+  }
+
+
+.call-to-action{
+    margin: 100px auto;
+    width: 80vw;
+    background-color: #e83b2e;
+    background: linear-gradient(94deg, rgba(251,30,0,1) 8%, rgba(255,77,52,1) 23%, rgba(255,159,95,0.9921218487394958) 35%, rgba(253,164,39,1) 46%, rgba(253,168,48,1) 65%, rgba(255,128,0,1) 81%, rgb(255, 25, 40) 93%);
+}
+.call-to-action>div:first-child{    
+    width: 50%;
+    padding-left: 15%;
+}
+.call-to-action img{
+    border-radius: 50px;
+    overflow: hidden;
+}
+.call-to-action>div{
+    width: 50%;
+    padding-right: 20%;
+}
+.fa-brands{
+    scale: 2;
+    margin-right: 20px;
+}
+.social-media-logo>.fa-brands{
+    scale: 2;
+    margin-right: 30px;
+}
+.call-to-action button{
+    width: 150px;
+}
+
+footer{
+    background-color: #fff0f3;
+    padding-block: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+}
+.footer-section-desc{
+    width: 30vw;
+}
